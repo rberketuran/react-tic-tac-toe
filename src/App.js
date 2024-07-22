@@ -1,24 +1,9 @@
-import Square from "./components/Square";
+import Board from "./components/Board";
 
-export default function Board() {
+export default function App() {
   return (
     <>
-      <div className="board-row">
-        <Square value={1} />
-        <Square value={1} />
-        <Square value={1} />
-      </div>
-      <div className="board-row">
-        <Square value={1} />
-        <Square value={1} />
-        <Square value={1} />
-      </div>
-      <div className="board-row">
-        <Square value={1} />
-        <Square value={1} />
-        <Square value={1} />
-      </div>
-
+      <Board />
     </>
   );
 }

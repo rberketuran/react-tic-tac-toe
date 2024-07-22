@@ -1,11 +1,7 @@
-const Square = ({ value }) => {
+const Square = ({ value, onSquareClick }) => {
     return (
-        <button className="square" onClick={handleClick}>{value}</button>
+        <button className="square" onClick={onSquareClick}>{value}</button>
     )
-}
-
-const handleClick = () => {
-    console.log('clicked');
 }
 
 export default Square
